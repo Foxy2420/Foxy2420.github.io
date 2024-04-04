@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: aqua;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  img {
+    height:300px;
+    margin: 20px;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
